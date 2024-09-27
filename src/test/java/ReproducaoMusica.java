@@ -102,7 +102,7 @@ public class ReproducaoMusica {
         
         reproducaoService.reproduzirPlayList(playList, usuario, artistaService);
         reproducaoService.pausarReproducao(usuario);
-        artistaService.getBiografia(playList.getMusicas().getFirst().getArtista());
+        artistaService.getBiografia(playList.getMusicas().get(0).getArtista());
         reproducaoService.reproduzirMusica(musica, usuario);
     }
     
