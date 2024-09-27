@@ -61,13 +61,10 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.Arrr-az</groupId>
-            <artifactId>StreamMusicas</artifactId>
-            <version>1.0.3</version>
+            <groupId>com.github.DanielGMantuan</groupId>
+            <artifactId>PlayListService</artifactId>
+            <version>1.0.0</version>
         </dependency>
-
-
-
     </dependencies>
 
     <build>
